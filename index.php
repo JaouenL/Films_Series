@@ -131,8 +131,8 @@ require_once('script/pagination.php')
 				<button type="button" id="dump">DUMP</button>
 				<span id="last-dump">
 					<?php
-					if (isset($_COOKIE["last_dump_anime"])) {
-						echo ($_COOKIE["last_dump_anime"]);
+					if (isset($_COOKIE["last_dump_films_series"])) {
+						echo ($_COOKIE["last_dump_films_series"]);
 					} else {
 						echo "+30 jours";
 					}

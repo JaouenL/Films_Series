@@ -1,7 +1,7 @@
 <?php
 echo Shell_Exec('powershell.exe -executionpolicy bypass -NoProfile -File ".\dump.ps1"');
 $date = date("d-m-Y H:i:s");
-setcookie("last_dump_anime", $date, [
+setcookie("last_dump_films_series", $date, [
     'expires' => strtotime('+30 days'),
     'path' => '/',
     'domain' => '',
